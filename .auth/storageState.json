@@ -1,0 +1,109 @@
+{
+  "cookies": [
+    {
+      "name": "_ga",
+      "value": "GA1.1.811339152.1771158514",
+      "domain": ".haraj.com.sa",
+      "path": "/",
+      "expires": 1805718513.576434,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "CLIENT_ID",
+      "value": "U0MehayW-qT1o-NZuL-6lwJ-ddInjOvGuKobv3",
+      "domain": ".haraj.com.sa",
+      "path": "/",
+      "expires": 1802694515,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBTG",
+      "value": "MWFxv0viJF52hpr4cotoxxfYstZe0CMCU12vF9KbtRzQTxxvyQITueMefmdCvGXiaM4ynJUqyraQ8rAGHYkiTeZuauAW2jYwV659PIq8ZngY2rjb9vKMPp4BgEgRqSIsZduO/PPPyTrEXztQ8KUqtpnU4e3LZ3g++DPelkBGMG3X7the1xU=",
+      "domain": "haraj.com.sa",
+      "path": "/",
+      "expires": 1771763314.235243,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBTGCORS",
+      "value": "MWFxv0viJF52hpr4cotoxxfYstZe0CMCU12vF9KbtRzQTxxvyQITueMefmdCvGXiaM4ynJUqyraQ8rAGHYkiTeZuauAW2jYwV659PIq8ZngY2rjb9vKMPp4BgEgRqSIsZduO/PPPyTrEXztQ8KUqtpnU4e3LZ3g++DPelkBGMG3X7the1xU=",
+      "domain": "haraj.com.sa",
+      "path": "/",
+      "expires": 1771763314.235562,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_ga_2MZXN9NTQC",
+      "value": "GS2.1.s1771158513$o1$g0$t1771158514$j59$l0$h0",
+      "domain": ".haraj.com.sa",
+      "path": "/",
+      "expires": 1805718514.439657,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "accessToken",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0NTQyMjExIiwidCI6ImEiLCJleHAiOjE3NzIwMjI1MTUsInVsIjoxLCJpZGVyIjoiU1M6XzM1YTVhY2UzN2MyZDI1NDM3YjIwMTk2OTQ3MjViMzEwMmY3MTcxMTM1ZjgyYyIsInRjIjoyMDI2MDIxNX0.sFXltLPCvgfkqir9vSsFS6p-FR5nxpQMNeh14D_6XwY",
+      "domain": ".haraj.com.sa",
+      "path": "/",
+      "expires": 1802694515,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "refreshToken",
+      "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0NTQyMjExIiwidCI6InIiLCJleHAiOjE4NjQ0NzA1MTUsInVsIjoxLCJpZGVyIjoiU1M6XzM1YTVhY2UzN2MyZDI1NDM3YjIwMTk2OTQ3MjViMzEwMmY3MTcxMTM1ZjgyYyIsInRjIjoyMDI2MDIxNX0.-MqDjKHVZgrRF-Q8vkjpEMEbSCL_cNPhlwR6tgfQ1a8",
+      "domain": ".haraj.com.sa",
+      "path": "/",
+      "expires": 1802694515,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALB",
+      "value": "ItSbGY/57kE0mZomGWSmR8kozi9Y8fPNoWG8smlVa3ZufPUfATpxdcnJXfdAq1wvRB5KC9nOCEg1uYR8VFrYTbLLRorLCOEO1GCQBi2IrqzIAw1KfmMkfaaMXUOM",
+      "domain": "graphql.haraj.com.sa",
+      "path": "/",
+      "expires": 1771763315.768676,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AWSALBCORS",
+      "value": "ItSbGY/57kE0mZomGWSmR8kozi9Y8fPNoWG8smlVa3ZufPUfATpxdcnJXfdAq1wvRB5KC9nOCEg1uYR8VFrYTbLLRorLCOEO1GCQBi2IrqzIAw1KfmMkfaaMXUOM",
+      "domain": "graphql.haraj.com.sa",
+      "path": "/",
+      "expires": 1771763315.768893,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    }
+  ],
+  "origins": [
+    {
+      "origin": "https://haraj.com.sa",
+      "localStorage": [
+        {
+          "name": "login",
+          "value": "{\"state\":{\"accessToken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0NTQyMjExIiwidCI6ImEiLCJleHAiOjE3NzIwMjI1MTUsInVsIjoxLCJpZGVyIjoiU1M6XzM1YTVhY2UzN2MyZDI1NDM3YjIwMTk2OTQ3MjViMzEwMmY3MTcxMTM1ZjgyYyIsInRjIjoyMDI2MDIxNX0.sFXltLPCvgfkqir9vSsFS6p-FR5nxpQMNeh14D_6XwY\",\"ATvalidUntil\":1772022515,\"refreshToken\":\"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjI0NTQyMjExIiwidCI6InIiLCJleHAiOjE4NjQ0NzA1MTUsInVsIjoxLCJpZGVyIjoiU1M6XzM1YTVhY2UzN2MyZDI1NDM3YjIwMTk2OTQ3MjViMzEwMmY3MTcxMTM1ZjgyYyIsInRjIjoyMDI2MDIxNX0.-MqDjKHVZgrRF-Q8vkjpEMEbSCL_cNPhlwR6tgfQ1a8\",\"RTvalidUntil\":1864470515,\"ul\":1,\"status\":200,\"username\":\"عضو 70 24197\",\"countMessages\":0,\"countNotes\":0,\"message\":\"\",\"isRecaptchaNeeded\":false,\"oldRefreshToken\":\"\"},\"version\":0}"
+        },
+        {
+          "name": "meta",
+          "value": "{\"state\":{\"clientId\":\"U0MehayW-qT1o-NZuL-6lwJ-ddInjOvGuKobv3\",\"lastRequestId\":\"1783923123:11141:17307118259908511111452733\"},\"version\":0}"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,494 @@
+[2026-02-16 09:12:23] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 09:12:32] [POLL] [ERROR] New ad scrape failed {"postId":"175549026","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:35] [POLL] [ERROR] New ad scrape failed {"postId":"175549027","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:35] [POLL] [ERROR] New ad scrape failed {"postId":"175549020","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:35] [POLL] [ERROR] New ad scrape failed {"postId":"175549025","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:40] [POLL] [ERROR] New ad scrape failed {"postId":"85974552","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:41] [POLL] [ERROR] New ad scrape failed {"postId":"69320865","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:12:41] [POLL] [ERROR] New ad scrape failed {"postId":"175549017","err":"MongoServerError: Updating the path 'firstSeenAt' would create a conflict at 'firstSeenAt'"}
+[2026-02-16 09:35:12] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 09:35:31] [POLL] [INFO] Saved new {"postId":"175550117","scrapedThisCycle":1}
+[2026-02-16 09:35:38] [POLL] [INFO] Saved new {"postId":"175550116","scrapedThisCycle":2}
+[2026-02-16 09:35:42] [POLL] [INFO] Saved new {"postId":"175550114","scrapedThisCycle":3}
+[2026-02-16 09:35:42] [POLL] [INFO] Saved new {"postId":"175550124","scrapedThisCycle":4}
+[2026-02-16 09:35:49] [POLL] [INFO] Saved new {"postId":"175550113","scrapedThisCycle":5}
+[2026-02-16 09:35:57] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":6}
+[2026-02-16 09:36:04] [POLL] [INFO] Saved new {"postId":"175550112","scrapedThisCycle":7}
+[2026-02-16 09:36:10] [POLL] [INFO] Saved new {"postId":"175550109","scrapedThisCycle":8}
+[2026-02-16 09:36:15] [POLL] [INFO] Saved new {"postId":"175550108","scrapedThisCycle":9}
+[2026-02-16 09:36:18] [POLL] [INFO] Saved new {"postId":"175550107","scrapedThisCycle":10}
+[2026-02-16 09:36:23] [POLL] [INFO] Saved new {"postId":"69320865","scrapedThisCycle":11}
+[2026-02-16 09:36:29] [POLL] [INFO] Saved new {"postId":"175550104","scrapedThisCycle":12}
+[2026-02-16 09:36:32] [POLL] [INFO] Saved new {"postId":"175550102","scrapedThisCycle":13}
+[2026-02-16 09:36:35] [POLL] [INFO] Saved new {"postId":"175550106","scrapedThisCycle":14}
+[2026-02-16 09:37:35] [POLL] [INFO] Saved new {"postId":"175550098","scrapedThisCycle":15}
+[2026-02-16 09:37:39] [POLL] [INFO] Saved new {"postId":"175550097","scrapedThisCycle":16}
+[2026-02-16 09:37:41] [POLL] [INFO] Saved new {"postId":"175550101","scrapedThisCycle":17}
+[2026-02-16 09:37:55] [POLL] [ERROR] New ad scrape failed {"postId":"175550124","err":"Error: upsertAd: doc is undefined/null"}
+[2026-02-16 09:37:55] [POLL] [ERROR] New ad scrape failed {"postId":"175550095","err":"Error: upsertAd: doc is undefined/null"}
+[2026-02-16 09:37:55] [POLL] [ERROR] New ad scrape failed {"postId":"175550096","err":"Error: upsertAd: doc is undefined/null"}
+[2026-02-16 10:11:57] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 10:12:16] [POLL] [INFO] Saved new {"postId":"175551890","scrapedThisCycle":1}
+[2026-02-16 10:12:25] [POLL] [INFO] Saved new {"postId":"175551884","scrapedThisCycle":2}
+[2026-02-16 10:12:30] [POLL] [INFO] Saved new {"postId":"175551885","scrapedThisCycle":3}
+[2026-02-16 10:12:32] [POLL] [INFO] Saved new {"postId":"175551889","scrapedThisCycle":4}
+[2026-02-16 10:12:41] [POLL] [INFO] Saved new {"postId":"69320865","scrapedThisCycle":5}
+[2026-02-16 10:12:47] [POLL] [INFO] Saved new {"postId":"175551881","scrapedThisCycle":6}
+[2026-02-16 10:12:49] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":7}
+[2026-02-16 10:12:57] [POLL] [INFO] Saved new {"postId":"175551874","scrapedThisCycle":8}
+[2026-02-16 10:13:05] [POLL] [INFO] Saved new {"postId":"175551875","scrapedThisCycle":9}
+[2026-02-16 10:13:11] [POLL] [INFO] Saved new {"postId":"175551873","scrapedThisCycle":10}
+[2026-02-16 10:13:54] [POLL] [INFO] Saved new {"postId":"175551876","scrapedThisCycle":11}
+[2026-02-16 10:14:22] [POLL] [INFO] Saved new {"postId":"175551869","scrapedThisCycle":12}
+[2026-02-16 10:14:26] [POLL] [INFO] Saved new {"postId":"175551870","scrapedThisCycle":13}
+[2026-02-16 10:14:31] [POLL] [INFO] Saved new {"postId":"175551864","scrapedThisCycle":14}
+[2026-02-16 10:14:35] [POLL] [INFO] Saved new {"postId":"175551863","scrapedThisCycle":15}
+[2026-02-16 10:14:43] [POLL] [INFO] Saved new {"postId":"175551861","scrapedThisCycle":16}
+[2026-02-16 10:14:46] [POLL] [INFO] Saved new {"postId":"175551865","scrapedThisCycle":17}
+[2026-02-16 10:14:51] [POLL] [INFO] Saved new {"postId":"175551857","scrapedThisCycle":18}
+[2026-02-16 10:14:54] [POLL] [INFO] Saved new {"postId":"175551890","scrapedThisCycle":19}
+[2026-02-16 10:15:00] [POLL] [INFO] Saved new {"postId":"175551885","scrapedThisCycle":20}
+[2026-02-16 10:15:01] [POLL] [INFO] Saved new {"postId":"175551889","scrapedThisCycle":21}
+[2026-02-16 10:15:07] [POLL] [INFO] Saved new {"postId":"175551881","scrapedThisCycle":22}
+[2026-02-16 10:15:09] [POLL] [INFO] Saved new {"postId":"175551884","scrapedThisCycle":23}
+[2026-02-16 10:15:16] [POLL] [INFO] Saved new {"postId":"69320865","scrapedThisCycle":24}
+[2026-02-16 10:15:16] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":25}
+[2026-02-16 10:15:24] [POLL] [INFO] Saved new {"postId":"175551875","scrapedThisCycle":26}
+[2026-02-16 13:11:43] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:12:05] [POLL] [INFO] Saved new {"postId":"175560582","scrapedThisCycle":1}
+[2026-02-16 13:12:14] [POLL] [INFO] Saved new {"postId":"175560575","scrapedThisCycle":2}
+[2026-02-16 13:12:17] [POLL] [INFO] Saved new {"postId":"175560578","scrapedThisCycle":3}
+[2026-02-16 13:12:26] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":4}
+[2026-02-16 13:12:29] [POLL] [INFO] Saved new {"postId":"175560574","scrapedThisCycle":5}
+[2026-02-16 13:12:40] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":6}
+[2026-02-16 13:12:41] [POLL] [INFO] Saved new {"postId":"175560572","scrapedThisCycle":7}
+[2026-02-16 13:12:52] [POLL] [INFO] Saved new {"postId":"175560571","scrapedThisCycle":8}
+[2026-02-16 13:13:16] [POLL] [INFO] Saved new {"postId":"175560577","scrapedThisCycle":9}
+[2026-02-16 13:13:49] [POLL] [INFO] Saved new {"postId":"175560568","scrapedThisCycle":10}
+[2026-02-16 13:14:00] [POLL] [INFO] Saved new {"postId":"175560566","scrapedThisCycle":11}
+[2026-02-16 13:14:21] [POLL] [INFO] Saved new {"postId":"175560563","scrapedThisCycle":12}
+[2026-02-16 13:14:28] [POLL] [INFO] Saved new {"postId":"175560557","scrapedThisCycle":13}
+[2026-02-16 13:14:35] [POLL] [INFO] Saved new {"postId":"175560548","scrapedThisCycle":14}
+[2026-02-16 13:14:42] [POLL] [INFO] Saved new {"postId":"175560547","scrapedThisCycle":15}
+[2026-02-16 13:14:54] [POLL] [INFO] Saved new {"postId":"175560561","scrapedThisCycle":16}
+[2026-02-16 13:14:59] [POLL] [INFO] Saved new {"postId":"175560540","scrapedThisCycle":17}
+[2026-02-16 13:15:05] [POLL] [INFO] Saved new {"postId":"175560559","scrapedThisCycle":18}
+[2026-02-16 13:15:07] [POLL] [INFO] Saved new {"postId":"175560539","scrapedThisCycle":19}
+[2026-02-16 13:15:12] [POLL] [INFO] Saved new {"postId":"175560582","scrapedThisCycle":20}
+[2026-02-16 13:15:13] [POLL] [INFO] Saved new {"postId":"175560578","scrapedThisCycle":21}
+[2026-02-16 13:15:19] [POLL] [INFO] Saved new {"postId":"175560575","scrapedThisCycle":22}
+[2026-02-16 13:15:26] [POLL] [INFO] Saved new {"postId":"175560574","scrapedThisCycle":23}
+[2026-02-16 13:15:33] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":24}
+[2026-02-16 13:15:39] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":25}
+[2026-02-16 13:15:47] [POLL] [INFO] Saved new {"postId":"175560572","scrapedThisCycle":26}
+[2026-02-16 13:15:48] [POLL] [INFO] Saved new {"postId":"175560541","scrapedThisCycle":27}
+[2026-02-16 13:15:57] [POLL] [INFO] Saved new {"postId":"175560571","scrapedThisCycle":28}
+[2026-02-16 13:16:03] [POLL] [INFO] Saved new {"postId":"175560566","scrapedThisCycle":29}
+[2026-02-16 13:16:20] [POLL] [INFO] Saved new {"postId":"175560577","scrapedThisCycle":30}
+[2026-02-16 13:16:27] [POLL] [INFO] Saved new {"postId":"175560561","scrapedThisCycle":31}
+[2026-02-16 13:16:55] [POLL] [INFO] Saved new {"postId":"175560568","scrapedThisCycle":32}
+[2026-02-16 13:17:02] [POLL] [INFO] Saved new {"postId":"175560557","scrapedThisCycle":33}
+[2026-02-16 13:17:08] [POLL] [INFO] Saved new {"postId":"175560548","scrapedThisCycle":34}
+[2026-02-16 13:17:10] [POLL] [INFO] Saved new {"postId":"175560563","scrapedThisCycle":35}
+[2026-02-16 13:17:18] [POLL] [INFO] Saved new {"postId":"175560547","scrapedThisCycle":36}
+[2026-02-16 13:17:25] [POLL] [INFO] Saved new {"postId":"175560540","scrapedThisCycle":37}
+[2026-02-16 13:17:32] [POLL] [INFO] Saved new {"postId":"175560539","scrapedThisCycle":38}
+[2026-02-16 13:17:35] [POLL] [INFO] Saved new {"postId":"175560559","scrapedThisCycle":39}
+[2026-02-16 13:18:18] [POLL] [INFO] Saved new {"postId":"175560541","scrapedThisCycle":40}
+[2026-02-16 13:18:18] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":40,"consecutiveExisting":0}
+[2026-02-16 13:23:18] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:23:31] [POLL] [INFO] Saved new {"postId":"175561234","scrapedThisCycle":1}
+[2026-02-16 13:23:33] [POLL] [INFO] Saved new {"postId":"175561233","scrapedThisCycle":2}
+[2026-02-16 13:23:33] [POLL] [INFO] Saved new {"postId":"175561235","scrapedThisCycle":3}
+[2026-02-16 13:23:41] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":4}
+[2026-02-16 13:23:42] [POLL] [INFO] Saved new {"postId":"175561232","scrapedThisCycle":5}
+[2026-02-16 13:23:49] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":6}
+[2026-02-16 13:23:49] [POLL] [INFO] Saved new {"postId":"175561219","scrapedThisCycle":7}
+[2026-02-16 13:23:55] [POLL] [INFO] Saved new {"postId":"175561197","scrapedThisCycle":8}
+[2026-02-16 13:23:56] [POLL] [INFO] Saved new {"postId":"175561198","scrapedThisCycle":9}
+[2026-02-16 13:24:03] [POLL] [INFO] Saved new {"postId":"175561191","scrapedThisCycle":10}
+[2026-02-16 13:24:03] [POLL] [INFO] Saved new {"postId":"175561193","scrapedThisCycle":11}
+[2026-02-16 13:24:10] [POLL] [INFO] Saved new {"postId":"175561185","scrapedThisCycle":12}
+[2026-02-16 13:24:10] [POLL] [INFO] Saved new {"postId":"175561190","scrapedThisCycle":13}
+[2026-02-16 13:24:16] [POLL] [INFO] Saved new {"postId":"175561177","scrapedThisCycle":14}
+[2026-02-16 13:24:24] [POLL] [INFO] Saved new {"postId":"175561175","scrapedThisCycle":15}
+[2026-02-16 13:24:31] [POLL] [INFO] Saved new {"postId":"175561174","scrapedThisCycle":16}
+[2026-02-16 13:24:38] [POLL] [INFO] Saved new {"postId":"175561172","scrapedThisCycle":17}
+[2026-02-16 13:24:41] [POLL] [INFO] Saved new {"postId":"175561228","scrapedThisCycle":18}
+[2026-02-16 13:24:47] [POLL] [INFO] Saved new {"postId":"175561235","scrapedThisCycle":19}
+[2026-02-16 13:24:48] [POLL] [INFO] Saved new {"postId":"175561234","scrapedThisCycle":20}
+[2026-02-16 13:24:54] [POLL] [INFO] Saved new {"postId":"175561233","scrapedThisCycle":21}
+[2026-02-16 13:24:55] [POLL] [INFO] Saved new {"postId":"175561232","scrapedThisCycle":22}
+[2026-02-16 13:25:02] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":23}
+[2026-02-16 13:25:09] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":24}
+[2026-02-16 13:25:15] [POLL] [INFO] Saved new {"postId":"175561219","scrapedThisCycle":25}
+[2026-02-16 13:25:17] [POLL] [INFO] Saved new {"postId":"175561180","scrapedThisCycle":26}
+[2026-02-16 13:25:24] [POLL] [INFO] Saved new {"postId":"175561198","scrapedThisCycle":27}
+[2026-02-16 13:25:25] [POLL] [INFO] Saved new {"postId":"175561197","scrapedThisCycle":28}
+[2026-02-16 13:25:31] [POLL] [INFO] Saved new {"postId":"175561191","scrapedThisCycle":29}
+[2026-02-16 13:25:31] [POLL] [INFO] Saved new {"postId":"175561193","scrapedThisCycle":30}
+[2026-02-16 13:25:37] [POLL] [INFO] Saved new {"postId":"175561190","scrapedThisCycle":31}
+[2026-02-16 13:25:38] [POLL] [INFO] Saved new {"postId":"175561185","scrapedThisCycle":32}
+[2026-02-16 13:25:44] [POLL] [INFO] Saved new {"postId":"175561177","scrapedThisCycle":33}
+[2026-02-16 13:25:50] [POLL] [INFO] Saved new {"postId":"175561175","scrapedThisCycle":34}
+[2026-02-16 13:25:57] [POLL] [INFO] Saved new {"postId":"175561174","scrapedThisCycle":35}
+[2026-02-16 13:26:01] [POLL] [INFO] Saved new {"postId":"175561228","scrapedThisCycle":36}
+[2026-02-16 13:26:05] [POLL] [INFO] Saved new {"postId":"175561172","scrapedThisCycle":37}
+[2026-02-16 13:26:08] [POLL] [INFO] Saved new {"postId":"175561171","scrapedThisCycle":38}
+[2026-02-16 13:26:46] [POLL] [INFO] Saved new {"postId":"175561180","scrapedThisCycle":39}
+[2026-02-16 13:26:46] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":39,"consecutiveExisting":0}
+[2026-02-16 13:31:46] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:32:07] [POLL] [INFO] Saved new {"postId":"175561709","scrapedThisCycle":1}
+[2026-02-16 13:32:08] [POLL] [INFO] Saved new {"postId":"175561699","scrapedThisCycle":2}
+[2026-02-16 13:32:16] [POLL] [INFO] Saved new {"postId":"175561692","scrapedThisCycle":3}
+[2026-02-16 13:32:18] [POLL] [INFO] Saved new {"postId":"175561693","scrapedThisCycle":4}
+[2026-02-16 13:32:25] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":5}
+[2026-02-16 13:32:26] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":6}
+[2026-02-16 13:32:34] [POLL] [INFO] Saved new {"postId":"175561688","scrapedThisCycle":7}
+[2026-02-16 13:32:37] [POLL] [INFO] Saved new {"postId":"175561689","scrapedThisCycle":8}
+[2026-02-16 13:32:42] [POLL] [INFO] Saved new {"postId":"175561684","scrapedThisCycle":9}
+[2026-02-16 13:32:45] [POLL] [INFO] Saved new {"postId":"175561681","scrapedThisCycle":10}
+[2026-02-16 13:32:50] [POLL] [INFO] Saved new {"postId":"175561679","scrapedThisCycle":11}
+[2026-02-16 13:32:53] [POLL] [INFO] Saved new {"postId":"175561678","scrapedThisCycle":12}
+[2026-02-16 13:33:02] [POLL] [INFO] Saved new {"postId":"175561668","scrapedThisCycle":13}
+[2026-02-16 13:33:02] [POLL] [INFO] Saved new {"postId":"175561670","scrapedThisCycle":14}
+[2026-02-16 13:33:02] [POLL] [INFO] Saved new {"postId":"175561708","scrapedThisCycle":15}
+[2026-02-16 13:33:12] [POLL] [INFO] Saved new {"postId":"175561660","scrapedThisCycle":16}
+[2026-02-16 13:33:14] [POLL] [INFO] Saved new {"postId":"175561659","scrapedThisCycle":17}
+[2026-02-16 13:33:16] [POLL] [INFO] Saved new {"postId":"175561663","scrapedThisCycle":18}
+[2026-02-16 13:33:21] [POLL] [INFO] Saved new {"postId":"175561653","scrapedThisCycle":19}
+[2026-02-16 13:33:25] [POLL] [INFO] Saved new {"postId":"175561709","scrapedThisCycle":20}
+[2026-02-16 13:33:28] [POLL] [INFO] Saved new {"postId":"175561652","scrapedThisCycle":21}
+[2026-02-16 13:33:36] [POLL] [INFO] Saved new {"postId":"175561693","scrapedThisCycle":22}
+[2026-02-16 13:33:38] [POLL] [INFO] Saved new {"postId":"175561699","scrapedThisCycle":23}
+[2026-02-16 13:33:45] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":24}
+[2026-02-16 13:33:46] [POLL] [INFO] Saved new {"postId":"175561692","scrapedThisCycle":25}
+[2026-02-16 13:33:53] [POLL] [INFO] Saved new {"postId":"175561689","scrapedThisCycle":26}
+[2026-02-16 13:33:55] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":27}
+[2026-02-16 13:33:59] [POLL] [INFO] Saved new {"postId":"175561688","scrapedThisCycle":28}
+[2026-02-16 13:34:02] [POLL] [INFO] Saved new {"postId":"175561684","scrapedThisCycle":29}
+[2026-02-16 13:34:07] [POLL] [INFO] Saved new {"postId":"175561681","scrapedThisCycle":30}
+[2026-02-16 13:34:08] [POLL] [INFO] Saved new {"postId":"175561679","scrapedThisCycle":31}
+[2026-02-16 13:34:16] [POLL] [INFO] Saved new {"postId":"175561670","scrapedThisCycle":32}
+[2026-02-16 13:34:17] [POLL] [INFO] Saved new {"postId":"175561678","scrapedThisCycle":33}
+[2026-02-16 13:34:24] [POLL] [INFO] Saved new {"postId":"175561668","scrapedThisCycle":34}
+[2026-02-16 13:34:25] [POLL] [INFO] Saved new {"postId":"175561663","scrapedThisCycle":35}
+[2026-02-16 13:34:32] [POLL] [INFO] Saved new {"postId":"175561659","scrapedThisCycle":36}
+[2026-02-16 13:34:32] [POLL] [INFO] Saved new {"postId":"175561660","scrapedThisCycle":37}
+[2026-02-16 13:34:38] [POLL] [INFO] Saved new {"postId":"175561708","scrapedThisCycle":38}
+[2026-02-16 13:34:41] [POLL] [INFO] Saved new {"postId":"175561652","scrapedThisCycle":39}
+[2026-02-16 13:34:41] [POLL] [INFO] Saved new {"postId":"175561653","scrapedThisCycle":40}
+[2026-02-16 13:34:41] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":40,"consecutiveExisting":0}
+[2026-02-16 13:39:41] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:39:58] [POLL] [INFO] Saved new {"postId":"175562127","scrapedThisCycle":1}
+[2026-02-16 13:39:59] [POLL] [INFO] Saved new {"postId":"175562137","scrapedThisCycle":2}
+[2026-02-16 13:40:05] [POLL] [INFO] Saved new {"postId":"175562125","scrapedThisCycle":3}
+[2026-02-16 13:40:07] [POLL] [INFO] Saved new {"postId":"175562126","scrapedThisCycle":4}
+[2026-02-16 13:40:13] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":5}
+[2026-02-16 13:40:15] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":6}
+[2026-02-16 13:40:54] [POLL] [INFO] Saved new {"postId":"175562134","scrapedThisCycle":7}
+[2026-02-16 13:41:19] [POLL] [INFO] Saved new {"postId":"175562120","scrapedThisCycle":8}
+[2026-02-16 13:41:23] [POLL] [INFO] Saved new {"postId":"175562119","scrapedThisCycle":9}
+[2026-02-16 13:41:31] [POLL] [INFO] Saved new {"postId":"175562114","scrapedThisCycle":10}
+[2026-02-16 13:41:38] [POLL] [INFO] Saved new {"postId":"175562109","scrapedThisCycle":11}
+[2026-02-16 13:41:46] [POLL] [INFO] Saved new {"postId":"175562103","scrapedThisCycle":12}
+[2026-02-16 13:41:52] [POLL] [INFO] Saved new {"postId":"175562102","scrapedThisCycle":13}
+[2026-02-16 13:42:00] [POLL] [INFO] Saved new {"postId":"175562118","scrapedThisCycle":14}
+[2026-02-16 13:42:01] [POLL] [INFO] Saved new {"postId":"175562101","scrapedThisCycle":15}
+[2026-02-16 13:42:09] [POLL] [INFO] Saved new {"postId":"175562085","scrapedThisCycle":16}
+[2026-02-16 13:42:09] [POLL] [INFO] Saved new {"postId":"175562097","scrapedThisCycle":17}
+[2026-02-16 13:42:19] [POLL] [INFO] Saved new {"postId":"175562082","scrapedThisCycle":18}
+[2026-02-16 13:42:25] [POLL] [INFO] Saved new {"postId":"175562116","scrapedThisCycle":19}
+[2026-02-16 13:42:28] [POLL] [INFO] Saved new {"postId":"175562137","scrapedThisCycle":20}
+[2026-02-16 13:42:35] [POLL] [INFO] Saved new {"postId":"175562127","scrapedThisCycle":21}
+[2026-02-16 13:42:42] [POLL] [INFO] Saved new {"postId":"175562126","scrapedThisCycle":22}
+[2026-02-16 13:42:48] [POLL] [INFO] Saved new {"postId":"175562125","scrapedThisCycle":23}
+[2026-02-16 13:42:55] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":24}
+[2026-02-16 13:43:02] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":25}
+[2026-02-16 13:43:17] [POLL] [INFO] Saved new {"postId":"175562079","scrapedThisCycle":26}
+[2026-02-16 13:43:33] [POLL] [INFO] Saved new {"postId":"175562134","scrapedThisCycle":27}
+[2026-02-16 13:44:09] [POLL] [INFO] Saved new {"postId":"175562120","scrapedThisCycle":28}
+[2026-02-16 13:44:24] [POLL] [INFO] Saved new {"postId":"175562119","scrapedThisCycle":29}
+[2026-02-16 13:44:31] [POLL] [INFO] Saved new {"postId":"175562114","scrapedThisCycle":30}
+[2026-02-16 13:44:37] [POLL] [INFO] Saved new {"postId":"175562109","scrapedThisCycle":31}
+[2026-02-16 13:44:41] [POLL] [INFO] Saved new {"postId":"175562118","scrapedThisCycle":32}
+[2026-02-16 13:44:45] [POLL] [INFO] Saved new {"postId":"175562103","scrapedThisCycle":33}
+[2026-02-16 13:44:49] [POLL] [INFO] Saved new {"postId":"175562102","scrapedThisCycle":34}
+[2026-02-16 13:44:52] [POLL] [INFO] Saved new {"postId":"175562101","scrapedThisCycle":35}
+[2026-02-16 13:44:59] [POLL] [INFO] Saved new {"postId":"175562085","scrapedThisCycle":36}
+[2026-02-16 13:44:59] [POLL] [INFO] Saved new {"postId":"175562097","scrapedThisCycle":37}
+[2026-02-16 13:45:10] [POLL] [INFO] Saved new {"postId":"175562082","scrapedThisCycle":38}
+[2026-02-16 13:45:17] [POLL] [INFO] Saved new {"postId":"175562116","scrapedThisCycle":39}
+[2026-02-16 13:46:08] [POLL] [INFO] Saved new {"postId":"175562079","scrapedThisCycle":40}
+[2026-02-16 13:46:08] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":40,"consecutiveExisting":0}
+[2026-02-16 13:51:09] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:51:21] [POLL] [INFO] Saved new {"postId":"175562753","scrapedThisCycle":1}
+[2026-02-16 13:51:24] [POLL] [INFO] Saved new {"postId":"175562750","scrapedThisCycle":2}
+[2026-02-16 13:51:25] [POLL] [INFO] Saved new {"postId":"175562754","scrapedThisCycle":3}
+[2026-02-16 13:51:30] [POLL] [INFO] Saved new {"postId":"175562748","scrapedThisCycle":4}
+[2026-02-16 13:51:33] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":5}
+[2026-02-16 13:51:33] [POLL] [INFO] Saved new {"postId":"175562743","scrapedThisCycle":6}
+[2026-02-16 13:51:39] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":7}
+[2026-02-16 13:51:40] [POLL] [INFO] Saved new {"postId":"175562740","scrapedThisCycle":8}
+[2026-02-16 13:51:41] [POLL] [INFO] Saved new {"postId":"175562742","scrapedThisCycle":9}
+[2026-02-16 13:51:48] [POLL] [INFO] Saved new {"postId":"175562737","scrapedThisCycle":10}
+[2026-02-16 13:51:49] [POLL] [INFO] Saved new {"postId":"175562738","scrapedThisCycle":11}
+[2026-02-16 13:51:49] [POLL] [INFO] Saved new {"postId":"175562739","scrapedThisCycle":12}
+[2026-02-16 13:51:56] [POLL] [INFO] Saved new {"postId":"175562730","scrapedThisCycle":13}
+[2026-02-16 13:51:58] [POLL] [INFO] Saved new {"postId":"175562736","scrapedThisCycle":14}
+[2026-02-16 13:52:05] [POLL] [INFO] Saved new {"postId":"175562728","scrapedThisCycle":15}
+[2026-02-16 13:52:06] [POLL] [INFO] Saved new {"postId":"175562726","scrapedThisCycle":16}
+[2026-02-16 13:52:13] [POLL] [INFO] Saved new {"postId":"175562725","scrapedThisCycle":17}
+[2026-02-16 13:52:13] [POLL] [INFO] Saved new {"postId":"175562724","scrapedThisCycle":18}
+[2026-02-16 13:52:21] [POLL] [INFO] Saved new {"postId":"175562722","scrapedThisCycle":19}
+[2026-02-16 13:52:23] [POLL] [INFO] Saved new {"postId":"175562754","scrapedThisCycle":20}
+[2026-02-16 13:52:28] [POLL] [INFO] Saved new {"postId":"175562750","scrapedThisCycle":21}
+[2026-02-16 13:52:30] [POLL] [INFO] Saved new {"postId":"175562753","scrapedThisCycle":22}
+[2026-02-16 13:52:36] [POLL] [INFO] Saved new {"postId":"175562748","scrapedThisCycle":23}
+[2026-02-16 13:52:39] [POLL] [INFO] Saved new {"postId":"175562743","scrapedThisCycle":24}
+[2026-02-16 13:52:44] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":25}
+[2026-02-16 13:52:46] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":26}
+[2026-02-16 13:52:52] [POLL] [INFO] Saved new {"postId":"175562740","scrapedThisCycle":27}
+[2026-02-16 13:52:55] [POLL] [INFO] Saved new {"postId":"175562742","scrapedThisCycle":28}
+[2026-02-16 13:52:58] [POLL] [INFO] Saved new {"postId":"175562733","scrapedThisCycle":29}
+[2026-02-16 13:53:00] [POLL] [INFO] Saved new {"postId":"175562739","scrapedThisCycle":30}
+[2026-02-16 13:53:01] [POLL] [INFO] Saved new {"postId":"175562738","scrapedThisCycle":31}
+[2026-02-16 13:53:05] [POLL] [INFO] Saved new {"postId":"175562737","scrapedThisCycle":32}
+[2026-02-16 13:53:09] [POLL] [INFO] Saved new {"postId":"175562736","scrapedThisCycle":33}
+[2026-02-16 13:53:13] [POLL] [INFO] Saved new {"postId":"175562730","scrapedThisCycle":34}
+[2026-02-16 13:53:17] [POLL] [INFO] Saved new {"postId":"175562728","scrapedThisCycle":35}
+[2026-02-16 13:53:21] [POLL] [INFO] Saved new {"postId":"175562726","scrapedThisCycle":36}
+[2026-02-16 13:53:23] [POLL] [INFO] Saved new {"postId":"175562725","scrapedThisCycle":37}
+[2026-02-16 13:53:28] [POLL] [INFO] Saved new {"postId":"175562724","scrapedThisCycle":38}
+[2026-02-16 13:53:31] [POLL] [INFO] Saved new {"postId":"175562722","scrapedThisCycle":39}
+[2026-02-16 13:54:10] [POLL] [INFO] Saved new {"postId":"175562733","scrapedThisCycle":40}
+[2026-02-16 13:54:10] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":40,"consecutiveExisting":0}
+[2026-02-16 13:59:10] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 13:59:25] [POLL] [INFO] Saved new {"postId":"175563221","scrapedThisCycle":1}
+[2026-02-16 13:59:29] [POLL] [INFO] Saved new {"postId":"175563215","scrapedThisCycle":2}
+[2026-02-16 13:59:30] [POLL] [INFO] Saved new {"postId":"175563222","scrapedThisCycle":3}
+[2026-02-16 13:59:36] [POLL] [INFO] Saved new {"postId":"175563210","scrapedThisCycle":4}
+[2026-02-16 13:59:37] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":5}
+[2026-02-16 13:59:39] [POLL] [INFO] Saved new {"postId":"175563200","scrapedThisCycle":6}
+[2026-02-16 13:59:46] [POLL] [INFO] Saved new {"postId":"175563193","scrapedThisCycle":7}
+[2026-02-16 13:59:49] [POLL] [INFO] Saved new {"postId":"175563199","scrapedThisCycle":8}
+[2026-02-16 13:59:50] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":9}
+[2026-02-16 13:59:57] [POLL] [INFO] Saved new {"postId":"175563187","scrapedThisCycle":10}
+[2026-02-16 13:59:58] [POLL] [INFO] Saved new {"postId":"175563181","scrapedThisCycle":11}
+[2026-02-16 14:00:00] [POLL] [INFO] Saved new {"postId":"175563183","scrapedThisCycle":12}
+[2026-02-16 14:00:08] [POLL] [INFO] Saved new {"postId":"175563164","scrapedThisCycle":13}
+[2026-02-16 14:00:13] [POLL] [INFO] Saved new {"postId":"175563168","scrapedThisCycle":14}
+[2026-02-16 14:00:13] [POLL] [INFO] Saved new {"postId":"175563170","scrapedThisCycle":15}
+[2026-02-16 14:00:16] [POLL] [INFO] Saved new {"postId":"175563162","scrapedThisCycle":16}
+[2026-02-16 14:00:23] [POLL] [INFO] Saved new {"postId":"175563159","scrapedThisCycle":17}
+[2026-02-16 14:00:23] [POLL] [INFO] Saved new {"postId":"175563153","scrapedThisCycle":18}
+[2026-02-16 14:00:31] [POLL] [INFO] Saved new {"postId":"175563221","scrapedThisCycle":19}
+[2026-02-16 14:00:31] [POLL] [INFO] Saved new {"postId":"175563222","scrapedThisCycle":20}
+[2026-02-16 14:00:38] [POLL] [INFO] Saved new {"postId":"175563210","scrapedThisCycle":21}
+[2026-02-16 14:00:39] [POLL] [INFO] Saved new {"postId":"175563215","scrapedThisCycle":22}
+[2026-02-16 14:00:46] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":23}
+[2026-02-16 14:00:49] [POLL] [INFO] Saved new {"postId":"175563200","scrapedThisCycle":24}
+[2026-02-16 14:00:53] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":25}
+[2026-02-16 14:00:57] [POLL] [INFO] Saved new {"postId":"175563199","scrapedThisCycle":26}
+[2026-02-16 14:01:00] [POLL] [INFO] Saved new {"postId":"175563193","scrapedThisCycle":27}
+[2026-02-16 14:01:04] [POLL] [INFO] Saved new {"postId":"175563187","scrapedThisCycle":28}
+[2026-02-16 14:01:07] [POLL] [INFO] Saved new {"postId":"175563183","scrapedThisCycle":29}
+[2026-02-16 14:01:12] [POLL] [INFO] Saved new {"postId":"175563181","scrapedThisCycle":30}
+[2026-02-16 14:01:13] [POLL] [INFO] Saved new {"postId":"175563170","scrapedThisCycle":31}
+[2026-02-16 14:01:21] [POLL] [INFO] Saved new {"postId":"175563164","scrapedThisCycle":32}
+[2026-02-16 14:01:22] [POLL] [INFO] Saved new {"postId":"175563168","scrapedThisCycle":33}
+[2026-02-16 14:01:23] [POLL] [INFO] Saved new {"postId":"175563161","scrapedThisCycle":34}
+[2026-02-16 14:01:30] [POLL] [INFO] Saved new {"postId":"175563162","scrapedThisCycle":35}
+[2026-02-16 14:01:31] [POLL] [INFO] Saved new {"postId":"175563159","scrapedThisCycle":36}
+[2026-02-16 14:01:38] [POLL] [INFO] Saved new {"postId":"175563151","scrapedThisCycle":37}
+[2026-02-16 14:01:39] [POLL] [INFO] Saved new {"postId":"175563153","scrapedThisCycle":38}
+[2026-02-16 14:02:31] [POLL] [INFO] Saved new {"postId":"175563161","scrapedThisCycle":39}
+[2026-02-16 14:02:31] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":39,"consecutiveExisting":0}
+[2026-02-16 14:07:31] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 14:07:47] [POLL] [INFO] Saved new {"postId":"175563701","scrapedThisCycle":1}
+[2026-02-16 14:07:50] [POLL] [INFO] Saved new {"postId":"175563695","scrapedThisCycle":2}
+[2026-02-16 14:07:50] [POLL] [INFO] Saved new {"postId":"175563703","scrapedThisCycle":3}
+[2026-02-16 14:07:57] [POLL] [INFO] Saved new {"postId":"175563692","scrapedThisCycle":4}
+[2026-02-16 14:07:58] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":5}
+[2026-02-16 14:07:59] [POLL] [INFO] Saved new {"postId":"175563690","scrapedThisCycle":6}
+[2026-02-16 14:08:06] [POLL] [INFO] Saved new {"postId":"175563687","scrapedThisCycle":7}
+[2026-02-16 14:08:09] [POLL] [INFO] Saved new {"postId":"175563688","scrapedThisCycle":8}
+[2026-02-16 14:08:11] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":9}
+[2026-02-16 14:08:16] [POLL] [INFO] Saved new {"postId":"175563681","scrapedThisCycle":10}
+[2026-02-16 14:08:19] [POLL] [INFO] Saved new {"postId":"175563668","scrapedThisCycle":11}
+[2026-02-16 14:08:19] [POLL] [INFO] Saved new {"postId":"175563665","scrapedThisCycle":12}
+[2026-02-16 14:08:27] [POLL] [INFO] Saved new {"postId":"175563656","scrapedThisCycle":13}
+[2026-02-16 14:08:29] [POLL] [INFO] Saved new {"postId":"175563661","scrapedThisCycle":14}
+[2026-02-16 14:08:36] [POLL] [INFO] Saved new {"postId":"175563643","scrapedThisCycle":15}
+[2026-02-16 14:08:43] [POLL] [INFO] Saved new {"postId":"175563640","scrapedThisCycle":16}
+[2026-02-16 14:08:50] [POLL] [INFO] Saved new {"postId":"175563703","scrapedThisCycle":17}
+[2026-02-16 14:08:57] [POLL] [INFO] Saved new {"postId":"175563701","scrapedThisCycle":18}
+[2026-02-16 14:09:05] [POLL] [INFO] Saved new {"postId":"175563695","scrapedThisCycle":19}
+[2026-02-16 14:09:13] [POLL] [INFO] Saved new {"postId":"175563692","scrapedThisCycle":20}
+[2026-02-16 14:09:20] [POLL] [INFO] Saved new {"postId":"175563690","scrapedThisCycle":21}
+[2026-02-16 14:09:28] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":22}
+[2026-02-16 14:09:30] [POLL] [INFO] Saved new {"postId":"175563659","scrapedThisCycle":23}
+[2026-02-16 14:09:36] [POLL] [INFO] Saved new {"postId":"175563642","scrapedThisCycle":24}
+[2026-02-16 14:09:37] [POLL] [INFO] Saved new {"postId":"175563688","scrapedThisCycle":25}
+[2026-02-16 14:09:38] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":26}
+[2026-02-16 14:09:47] [POLL] [INFO] Saved new {"postId":"175563668","scrapedThisCycle":27}
+[2026-02-16 14:09:49] [POLL] [INFO] Saved new {"postId":"175563681","scrapedThisCycle":28}
+[2026-02-16 14:09:51] [POLL] [INFO] Saved new {"postId":"175563687","scrapedThisCycle":29}
+[2026-02-16 14:10:00] [POLL] [INFO] Saved new {"postId":"175563665","scrapedThisCycle":30}
+[2026-02-16 14:10:07] [POLL] [INFO] Saved new {"postId":"175563661","scrapedThisCycle":31}
+[2026-02-16 14:10:12] [POLL] [INFO] Saved new {"postId":"175563656","scrapedThisCycle":32}
+[2026-02-16 14:10:21] [POLL] [INFO] Saved new {"postId":"175563643","scrapedThisCycle":33}
+[2026-02-16 14:10:29] [POLL] [INFO] Saved new {"postId":"175563640","scrapedThisCycle":34}
+[2026-02-16 14:10:38] [POLL] [INFO] Saved new {"postId":"175563639","scrapedThisCycle":35}
+[2026-02-16 14:10:45] [POLL] [INFO] Saved new {"postId":"175563636","scrapedThisCycle":36}
+[2026-02-16 14:11:00] [POLL] [INFO] Saved new {"postId":"175563659","scrapedThisCycle":37}
+[2026-02-16 14:11:20] [POLL] [INFO] Saved new {"postId":"175563642","scrapedThisCycle":38}
+[2026-02-16 14:11:20] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":38,"consecutiveExisting":0}
+[2026-02-16 14:16:22] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 14:16:44] [POLL] [INFO] Saved new {"postId":"175564190","scrapedThisCycle":1}
+[2026-02-16 14:16:47] [POLL] [INFO] Saved new {"postId":"175564188","scrapedThisCycle":2}
+[2026-02-16 14:16:49] [POLL] [INFO] Saved new {"postId":"175564195","scrapedThisCycle":3}
+[2026-02-16 14:17:08] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":4}
+[2026-02-16 14:17:21] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":5}
+[2026-02-16 14:17:33] [POLL] [INFO] Saved new {"postId":"175564181","scrapedThisCycle":6}
+[2026-02-16 14:17:38] [POLL] [INFO] Saved new {"postId":"175564185","scrapedThisCycle":7}
+[2026-02-16 14:17:42] [POLL] [INFO] Saved new {"postId":"175564182","scrapedThisCycle":8}
+[2026-02-16 14:17:53] [POLL] [INFO] Saved new {"postId":"175564171","scrapedThisCycle":9}
+[2026-02-16 14:17:59] [POLL] [INFO] Saved new {"postId":"175564175","scrapedThisCycle":10}
+[2026-02-16 14:18:00] [POLL] [INFO] Saved new {"postId":"175564174","scrapedThisCycle":11}
+[2026-02-16 14:18:08] [POLL] [INFO] Saved new {"postId":"175564167","scrapedThisCycle":12}
+[2026-02-16 14:18:13] [POLL] [INFO] Saved new {"postId":"175564157","scrapedThisCycle":13}
+[2026-02-16 14:18:15] [POLL] [INFO] Saved new {"postId":"175564137","scrapedThisCycle":14}
+[2026-02-16 14:18:21] [POLL] [INFO] Saved new {"postId":"175564135","scrapedThisCycle":15}
+[2026-02-16 14:18:36] [POLL] [INFO] Saved new {"postId":"175564128","scrapedThisCycle":16}
+[2026-02-16 14:18:40] [POLL] [INFO] Saved new {"postId":"175564123","scrapedThisCycle":17}
+[2026-02-16 14:18:59] [POLL] [INFO] Saved new {"postId":"175564115","scrapedThisCycle":18}
+[2026-02-16 14:19:10] [POLL] [INFO] Saved new {"postId":"175564195","scrapedThisCycle":19}
+[2026-02-16 14:19:13] [POLL] [INFO] Saved new {"postId":"175564118","scrapedThisCycle":20}
+[2026-02-16 14:19:16] [POLL] [INFO] Saved new {"postId":"175564142","scrapedThisCycle":21}
+[2026-02-16 14:19:26] [POLL] [INFO] Saved new {"postId":"175564185","scrapedThisCycle":22}
+[2026-02-16 14:19:36] [POLL] [INFO] Saved new {"postId":"175564182","scrapedThisCycle":23}
+[2026-02-16 14:19:38] [POLL] [INFO] Saved new {"postId":"175564190","scrapedThisCycle":24}
+[2026-02-16 14:19:40] [POLL] [INFO] Saved new {"postId":"175564188","scrapedThisCycle":25}
+[2026-02-16 14:19:52] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":26}
+[2026-02-16 14:19:54] [POLL] [INFO] Saved new {"postId":"175564181","scrapedThisCycle":27}
+[2026-02-16 14:19:59] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":28}
+[2026-02-16 14:20:11] [POLL] [INFO] Saved new {"postId":"175564171","scrapedThisCycle":29}
+[2026-02-16 14:20:29] [POLL] [INFO] Saved new {"postId":"175564167","scrapedThisCycle":30}
+[2026-02-16 14:20:33] [POLL] [INFO] Saved new {"postId":"175564174","scrapedThisCycle":31}
+[2026-02-16 14:20:34] [POLL] [INFO] Saved new {"postId":"175564175","scrapedThisCycle":32}
+[2026-02-16 14:20:44] [POLL] [INFO] Saved new {"postId":"175564157","scrapedThisCycle":33}
+[2026-02-16 14:20:44] [POLL] [INFO] Saved new {"postId":"175564137","scrapedThisCycle":34}
+[2026-02-16 14:20:52] [POLL] [INFO] Saved new {"postId":"175564128","scrapedThisCycle":35}
+[2026-02-16 14:20:54] [POLL] [INFO] Saved new {"postId":"175564135","scrapedThisCycle":36}
+[2026-02-16 14:21:01] [POLL] [INFO] Saved new {"postId":"175564118","scrapedThisCycle":37}
+[2026-02-16 14:21:03] [POLL] [INFO] Saved new {"postId":"175564123","scrapedThisCycle":38}
+[2026-02-16 14:21:08] [POLL] [INFO] Saved new {"postId":"175564115","scrapedThisCycle":39}
+[2026-02-16 14:21:48] [POLL] [INFO] Saved new {"postId":"175564142","scrapedThisCycle":40}
+[2026-02-16 14:21:48] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":40,"consecutiveExisting":0}
+[2026-02-16 14:26:49] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 14:27:27] [POLL] [INFO] Saved new {"postId":"175564814","scrapedThisCycle":1}
+[2026-02-16 14:27:28] [POLL] [INFO] Saved new {"postId":"175564818","scrapedThisCycle":2}
+[2026-02-16 14:27:46] [POLL] [INFO] Saved new {"postId":"175564812","scrapedThisCycle":3}
+[2026-02-16 14:28:01] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":4}
+[2026-02-16 14:28:11] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":5}
+[2026-02-16 14:28:18] [POLL] [INFO] Saved new {"postId":"175564817","scrapedThisCycle":6}
+[2026-02-16 14:28:20] [POLL] [INFO] Saved new {"postId":"175564810","scrapedThisCycle":7}
+[2026-02-16 14:28:41] [POLL] [INFO] Saved new {"postId":"175564802","scrapedThisCycle":8}
+[2026-02-16 14:28:42] [POLL] [INFO] Saved new {"postId":"175564811","scrapedThisCycle":9}
+[2026-02-16 14:28:58] [POLL] [INFO] Saved new {"postId":"175564791","scrapedThisCycle":10}
+[2026-02-16 14:29:12] [POLL] [INFO] Saved new {"postId":"175564789","scrapedThisCycle":11}
+[2026-02-16 14:29:28] [POLL] [INFO] Saved new {"postId":"175564786","scrapedThisCycle":12}
+[2026-02-16 14:29:29] [POLL] [INFO] Saved new {"postId":"175564804","scrapedThisCycle":13}
+[2026-02-16 14:29:43] [POLL] [INFO] Saved new {"postId":"175564779","scrapedThisCycle":14}
+[2026-02-16 14:29:59] [POLL] [INFO] Saved new {"postId":"175564776","scrapedThisCycle":15}
+[2026-02-16 14:30:11] [POLL] [INFO] Saved new {"postId":"175564793","scrapedThisCycle":16}
+[2026-02-16 14:30:12] [POLL] [INFO] Saved new {"postId":"175564774","scrapedThisCycle":17}
+[2026-02-16 14:30:24] [POLL] [INFO] Saved new {"postId":"175564773","scrapedThisCycle":18}
+[2026-02-16 14:30:27] [POLL] [INFO] Saved new {"postId":"175564784","scrapedThisCycle":19}
+[2026-02-16 14:30:37] [POLL] [INFO] Saved new {"postId":"175564766","scrapedThisCycle":20}
+[2026-02-16 14:30:39] [POLL] [INFO] Saved new {"postId":"175564818","scrapedThisCycle":21}
+[2026-02-16 14:30:53] [POLL] [INFO] Saved new {"postId":"175564812","scrapedThisCycle":22}
+[2026-02-16 14:31:24] [POLL] [INFO] Saved new {"postId":"175564814","scrapedThisCycle":23}
+[2026-02-16 14:31:34] [POLL] [INFO] Saved new {"postId":"73847670","scrapedThisCycle":24}
+[2026-02-16 14:31:37] [POLL] [INFO] Saved new {"postId":"175564817","scrapedThisCycle":25}
+[2026-02-16 14:31:55] [POLL] [INFO] Saved new {"postId":"175564810","scrapedThisCycle":26}
+[2026-02-16 14:32:05] [POLL] [INFO] Saved new {"postId":"175564811","scrapedThisCycle":27}
+[2026-02-16 14:32:14] [POLL] [INFO] Saved new {"postId":"175564804","scrapedThisCycle":28}
+[2026-02-16 14:32:26] [POLL] [INFO] Saved new {"postId":"175564793","scrapedThisCycle":29}
+[2026-02-16 14:32:40] [POLL] [INFO] Saved new {"postId":"175564791","scrapedThisCycle":30}
+[2026-02-16 14:32:42] [POLL] [INFO] Saved new {"postId":"175564802","scrapedThisCycle":31}
+[2026-02-16 14:32:43] [POLL] [INFO] Saved new {"postId":"85974552","scrapedThisCycle":32}
+[2026-02-16 14:33:02] [POLL] [INFO] Saved new {"postId":"175564784","scrapedThisCycle":33}
+[2026-02-16 14:33:15] [POLL] [INFO] Saved new {"postId":"175564779","scrapedThisCycle":34}
+[2026-02-16 14:33:28] [POLL] [INFO] Saved new {"postId":"175564776","scrapedThisCycle":35}
+[2026-02-16 14:33:30] [POLL] [INFO] Saved new {"postId":"175564789","scrapedThisCycle":36}
+[2026-02-16 14:33:32] [POLL] [INFO] Saved new {"postId":"175564786","scrapedThisCycle":37}
+[2026-02-16 14:33:49] [POLL] [INFO] Saved new {"postId":"175564766","scrapedThisCycle":38}
+[2026-02-16 14:34:05] [POLL] [INFO] Saved new {"postId":"175564774","scrapedThisCycle":39}
+[2026-02-16 15:12:18] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 15:12:35] [POLL] [DEBUG] Existing {"postId":"1173847670","consecutiveExisting":1}
+[2026-02-16 15:12:35] [POLL] [DEBUG] Existing {"postId":"1185974552","consecutiveExisting":2}
+[2026-02-16 15:12:48] [POLL] [ERROR] New ad scrape failed {"postId":"11175567478","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:04] [POLL] [ERROR] New ad scrape failed {"postId":"11175567461","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:05] [POLL] [ERROR] New ad scrape failed {"postId":"11175567471","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:07] [POLL] [ERROR] New ad scrape failed {"postId":"11175567474","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:26] [POLL] [ERROR] New ad scrape failed {"postId":"11175567458","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:37] [POLL] [ERROR] New ad scrape failed {"postId":"11175567440","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:13:49] [POLL] [ERROR] New ad scrape failed {"postId":"11175567439","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:01] [POLL] [ERROR] New ad scrape failed {"postId":"11175567437","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:11] [POLL] [ERROR] New ad scrape failed {"postId":"11175567434","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:21] [POLL] [ERROR] New ad scrape failed {"postId":"11175567443","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:23] [POLL] [ERROR] New ad scrape failed {"postId":"11175567431","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:28] [POLL] [ERROR] New ad scrape failed {"postId":"11175567450","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:37] [POLL] [ERROR] New ad scrape failed {"postId":"11175567421","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:40] [POLL] [ERROR] New ad scrape failed {"postId":"11175567423","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:41] [POLL] [ERROR] New ad scrape failed {"postId":"11175567425","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:47] [POLL] [ERROR] New ad scrape failed {"postId":"11175567418","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:49] [POLL] [ERROR] New ad scrape failed {"postId":"11175567413","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:51] [POLL] [ERROR] New ad scrape failed {"postId":"11175567405","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:14:51] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":0,"consecutiveExisting":0}
+[2026-02-16 15:19:54] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 15:20:07] [POLL] [DEBUG] Existing {"postId":"1173847670","consecutiveExisting":1}
+[2026-02-16 15:20:07] [POLL] [DEBUG] Existing {"postId":"1185974552","consecutiveExisting":2}
+[2026-02-16 15:20:18] [POLL] [ERROR] New ad scrape failed {"postId":"11175567921","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:28] [POLL] [ERROR] New ad scrape failed {"postId":"11175567917","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:30] [POLL] [ERROR] New ad scrape failed {"postId":"11175567918","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:33] [POLL] [ERROR] New ad scrape failed {"postId":"11175567924","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:50] [POLL] [ERROR] New ad scrape failed {"postId":"11175567899","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:53] [POLL] [ERROR] New ad scrape failed {"postId":"11175567901","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:20:58] [POLL] [ERROR] New ad scrape failed {"postId":"11175567907","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:21:11] [POLL] [ERROR] New ad scrape failed {"postId":"11175567890","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:21:22] [POLL] [ERROR] New ad scrape failed {"postId":"11175567885","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:21:33] [POLL] [ERROR] New ad scrape failed {"postId":"11175567884","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:21:44] [POLL] [ERROR] New ad scrape failed {"postId":"11175567882","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:21:55] [POLL] [ERROR] New ad scrape failed {"postId":"11175567878","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:22:05] [POLL] [ERROR] New ad scrape failed {"postId":"11175567873","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:22:14] [POLL] [ERROR] New ad scrape failed {"postId":"11175567863","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:22:16] [POLL] [ERROR] New ad scrape failed {"postId":"11175567892","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:22:20] [POLL] [ERROR] New ad scrape failed {"postId":"11175567894","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:22:29] [POLL] [ERROR] New ad scrape failed {"postId":"11175567861","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:23:25] [POLL] [ERROR] New ad scrape failed {"postId":"11175567857","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:23:25] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":0,"consecutiveExisting":0}
+[2026-02-16 15:28:27] [POLL] [INFO] Polling tag page {"url":"https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B3%D9%8A%D8%A7%D8%B1%D8%A7%D8%AA"}
+[2026-02-16 15:28:40] [POLL] [DEBUG] Existing {"postId":"1173847670","consecutiveExisting":1}
+[2026-02-16 15:28:40] [POLL] [DEBUG] Existing {"postId":"1185974552","consecutiveExisting":2}
+[2026-02-16 15:28:54] [POLL] [ERROR] New ad scrape failed {"postId":"11175568441","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:28:56] [POLL] [ERROR] New ad scrape failed {"postId":"11175568451","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:00] [POLL] [ERROR] New ad scrape failed {"postId":"11175568455","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:11] [POLL] [ERROR] New ad scrape failed {"postId":"11175568434","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:13] [POLL] [ERROR] New ad scrape failed {"postId":"11175568440","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:21] [POLL] [ERROR] New ad scrape failed {"postId":"11175568425","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:22] [POLL] [ERROR] New ad scrape failed {"postId":"11175568422","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:30] [POLL] [ERROR] New ad scrape failed {"postId":"11175568421","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:32] [POLL] [ERROR] New ad scrape failed {"postId":"11175568413","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:42] [POLL] [ERROR] New ad scrape failed {"postId":"11175568408","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:44] [POLL] [ERROR] New ad scrape failed {"postId":"11175568411","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:57] [POLL] [ERROR] New ad scrape failed {"postId":"11175568406","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:29:59] [POLL] [ERROR] New ad scrape failed {"postId":"11175568407","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:30:13] [POLL] [ERROR] New ad scrape failed {"postId":"11175568399","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:30:14] [POLL] [ERROR] New ad scrape failed {"postId":"11175568428","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:30:30] [POLL] [ERROR] New ad scrape failed {"postId":"11175568401","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:30:40] [POLL] [ERROR] New ad scrape failed {"postId":"11175568397","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:31:30] [POLL] [ERROR] New ad scrape failed {"postId":"11175568396","err":"MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'"}
+[2026-02-16 15:31:30] [POLL] [INFO] Poll cycle done {"scrapedThisCycle":0,"consecutiveExisting":0}
