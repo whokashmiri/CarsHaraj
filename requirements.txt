@@ -1,0 +1,4 @@
+nodriver
+motor
+pydantic-settings
+python-dotenv

@@ -1,48 +1,30 @@
-# Haraj.com.sa Scraper (Node + Playwright + Stealth)
+# Haraj Real Estate Tag Scraper
 
-Features
-- Stealth Chromium via `playwright-extra` + `puppeteer-extra-plugin-stealth`
-- Login (username → next → password → login)
-- Full scrape from the tag page (cars tag)
-- For each ad:
-  - opens the ad in a new tab
-  - captures GraphQL responses for `posts` and `comments`
-  - clicks “تواصل” to extract seller contact phone from the UI
-  - stores/upserts into MongoDB
-- New ads polling every 5 minutes:
-  - stops a cycle when it hits N consecutive postIds that already exist in DB
-- Comments refresh every 24 hours:
-  - revisits stored ads and updates comments snapshot
-- Structured logs in `./logs/`
+Scrapes the Haraj real-estate tag page, opens each visible ad in a new tab, captures post/user/comments GraphQL responses, reads seller phone from the contact modal, and saves one MongoDB document per post.
 
-## Install
+## Setup
+
 ```bash
-npm i
-npm run install:browsers
-cp .env.example .env
-# fill credentials + mongo
-npm start
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+copy .env.example .env
 ```
 
-## Modes
-By default it runs 3 loops:
-1) Full scrape (once)
-2) Poll new ads every `HARAJ_POLL_MINUTES`
-3) Refresh comments every `HARAJ_COMMENTS_REFRESH_HOURS`
+Fill `.env` with your Haraj credentials and MongoDB URI.
 
-You can run a single mode:
+## Run
+
 ```bash
-MODE=full npm start
-MODE=poll npm start
-MODE=refresh npm start
+python -m src.main
 ```
 
-## Data Model (Mongo)
-- `COLLECTION_ADS` documents keyed by `_id = postId`
-  - `postId`, `url`, `title`, `price`, `author`, `city`, `timeText`
-  - `contact` (phone)
-  - `gql.posts` and `gql.comments` snapshots (latest captured)
-  - `updatedAt`, `createdAt`
-- `COLLECTION_STATE` stores runtime cursor/state if needed later
+## Important env values
 
-> Note: Haraj UI and GraphQL can change; selectors are based on your provided HTML.
+```env
+SCRAPE_CONCURRENCY=2
+MAX_ADS_PER_RUN=0
+MAX_LOAD_MORE_ROUNDS=0
+```
+
+`0` means unlimited. The scraper first clicks the `posts-load-more` button if present. When no button is present, it scrolls to trigger lazy loading.
