@@ -1,4 +1,4 @@
-# Haraj Real Estate Tag Scraper
+# Haraj Cars Tag Scraper
 
 Scrapes the Haraj real-estate tag page, opens each visible ad in a new tab, captures post/user/comments GraphQL responses, reads seller phone from the contact modal, and saves one MongoDB document per post.
 
