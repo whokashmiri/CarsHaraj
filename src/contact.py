@@ -37,36 +37,31 @@ async def close_contact_modal(tab) -> None:
 
 
 async def fetch_seller_phone(tab, timeout_ms: int | None = None) -> str | None:
+    # Single in-page script: click contact button and poll every 100ms for the
+    # phone link. No modal close needed — the tab is closed right after.
     timeout_ms = timeout_ms or settings.contact_timeout_ms
-    await close_contact_modal(tab)
+    raw = await eval_js(tab, '''async (timeoutMs) => {
+      const sleep = (ms) => new Promise(r => setTimeout(r, ms));
+      let end = Date.now() + 1500;
+      let btn = null;
+      while (!(btn = document.querySelector('[data-testid="post-contact"]'))) {
+        if (Date.now() > end) return null;
+        await sleep(100);
+      }
+      btn.scrollIntoView({block: 'center'});
+      btn.click();
+      end = Date.now() + timeoutMs;
+      while (Date.now() < end) {
+        const a = document.querySelector('a[data-testid="contact_mobile"]');
+        if (a) {
+          const href = a.getAttribute('href') || '';
+          const v = href.startsWith('tel:') ? href.slice(4) : (a.innerText || a.textContent || '');
+          if (v.replace(/\\D/g, '').length >= 9) return v;
+        }
+        await sleep(100);
+      }
+      return null;
+    }''', timeout_ms)
 
-    if not await element_exists(tab, '[data-testid="post-contact"]', timeout_ms=1500):
-        return None
-
-    await js_click(tab, '[data-testid="post-contact"]', timeout_ms)
-
-    appeared = False
-    deadline = asyncio.get_running_loop().time() + timeout_ms / 1000
-    while asyncio.get_running_loop().time() < deadline:
-        if await element_exists(tab, 'a[data-testid="contact_mobile"]', timeout_ms=500):
-            appeared = True
-            break
-        await asyncio.sleep(0.2)
-
-    if not appeared:
-        await close_contact_modal(tab)
-        return None
-
-    phone = None
-    deadline = asyncio.get_running_loop().time() + timeout_ms / 1000
-    while asyncio.get_running_loop().time() < deadline:
-        href = await get_text_or_attr(tab, 'a[data-testid="contact_mobile"]', 'href')
-        txt = await get_text_or_attr(tab, 'a[data-testid="contact_mobile"]')
-        candidate = normalize_phone(href[4:] if isinstance(href, str) and href.startswith('tel:') else txt)
-        if candidate and len(candidate) >= 9:
-            phone = candidate
-            break
-        await asyncio.sleep(0.2)
-
-    await close_contact_modal(tab)
-    return phone
+    phone = normalize_phone(raw) if isinstance(raw, str) else None
+    return phone if phone and len(phone) >= 9 else None
