@@ -19,7 +19,7 @@ class Settings(BaseSettings):
     contact_timeout_ms: int = 20_000
 
     mongodb_uri: str = 'mongodb://localhost:27017'
-    mongodb_db: str = 'haraj_scraper'
+    mongodb_db: str = 'ScriptsDB'
     mongodb_collection: str = 'harajRealEstateTagScrape'
 
     target_tag_url: str = 'https://haraj.com.sa/tags/%D8%AD%D8%B1%D8%A7%D8%AC%20%D8%A7%D9%84%D8%B9%D9%82%D8%A7%D8%B1'
@@ -36,7 +36,8 @@ class Settings(BaseSettings):
 
     recent_loop_enabled: bool = True
     recent_loop_interval_seconds: int = 180
-    allow_overlapping_rounds: bool = True
+    allow_overlapping_rounds: bool = False
+    ad_timeout_seconds: int = 120
 
 
 settings = Settings()
