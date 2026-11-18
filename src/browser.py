@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import asyncio
 import json
 from typing import Any
 
@@ -30,6 +31,47 @@ async def start_browser():
     )
 
     return browser
+
+
+async def close_tab(browser, tab, timeout_s: float = 10) -> None:
+    """Close a tab reliably: via the browser connection (works even if the tab's
+    page is hung), falling back to the tab itself, then drop its websocket."""
+    if tab is None:
+        return
+    target_id = getattr(getattr(tab, 'target', None), 'target_id', None)
+    closed = False
+    if target_id and browser.connection:
+        try:
+            await asyncio.wait_for(
+                browser.connection.send(uc.cdp.target.close_target(target_id=target_id)),
+                timeout_s,
+            )
+            closed = True
+        except Exception:
+            pass
+    if not closed:
+        try:
+            await asyncio.wait_for(tab.close(), timeout_s)
+        except Exception as exc:
+            print(f'[TAB] Failed to close tab {target_id}: {exc!r}')
+    try:
+        await asyncio.wait_for(tab.aclose(), timeout_s)
+    except Exception:
+        pass
+
+
+async def close_orphan_tabs(browser, keep_tab) -> None:
+    """Close every page tab except keep_tab (safety net for leaked tabs)."""
+    try:
+        await browser.update_targets()
+    except Exception:
+        pass
+    keep_id = getattr(getattr(keep_tab, 'target', None), 'target_id', None)
+    orphans = [t for t in list(browser.tabs) if t.target.target_id != keep_id]
+    if orphans:
+        print(f'[TAB] Closing {len(orphans)} leftover tab(s)')
+    for t in orphans:
+        await close_tab(browser, t)
 
 
 async def save_cookies(browser) -> None:
