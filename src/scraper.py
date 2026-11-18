@@ -4,7 +4,7 @@ import asyncio
 import random
 from typing import Any
 
-from .browser import element_exists, eval_js, js_click
+from .browser import close_tab, element_exists, eval_js, js_click
 from .comments import is_not_found, scroll_comments_fallback
 from .config import settings
 from .contact import fetch_seller_phone
@@ -125,90 +125,96 @@ async def fetch_post_graphql_in_page(tab, url: str) -> dict[str, Any] | None:
 
 async def scrape_ad(browser, ad: dict[str, Any], sem: asyncio.Semaphore) -> None:
     async with sem:
+        try:
+            await asyncio.wait_for(_scrape_ad(browser, ad), settings.ad_timeout_seconds)
+        except asyncio.TimeoutError:
+            print(f'[AD] Timeout after {settings.ad_timeout_seconds}s urlId={ad.get("urlId")}, tab closed')
+        await asyncio.sleep(random.randint(settings.min_delay_ms, settings.max_delay_ms) / 1000)
+
+
+async def _scrape_ad(browser, ad: dict[str, Any]) -> None:
+    url = absolute_url(ad.get('href') or '')
+    url_id = str(ad.get('urlId') or '').strip()
+
+    tab = None
+    try:
         tab = await browser.get('about:blank', new_tab=True)
-        url = absolute_url(ad.get('href') or '')
-        url_id = str(ad.get('urlId') or '').strip()
+        # print(f'[AD] Open {url}')
+        gql_payloads = await fetch_post_graphql_in_page(tab, url)
+
+        if await is_not_found(tab):
+            # print(f'[AD] {url_id} not found')
+            return
+
+        if not isinstance(gql_payloads, dict):
+            # print(f'[AD] {url_id} no GraphQL payloads')
+            return
+
+        posts_json = gql_payloads.get('posts')
+        if not isinstance(posts_json, dict):
+            # print(f'[AD] {url_id} no posts GraphQL')
+            return
+
+        items = (((posts_json.get('data') or {}).get('posts') or {}).get('items') or [])
+        if not items:
+            print(f'[AD] {url_id} item=null, skip DB')
+            return
+
+        post = items[0]
+        real_post_id = str(post.get('id') or ad.get('listPostId') or url_id).strip()
 
         try:
-            # print(f'[AD] Open {url}')
-            gql_payloads = await fetch_post_graphql_in_page(tab, url)
-
-            if await is_not_found(tab):
-                # print(f'[AD] {url_id} not found')
-                return
-
-            if not isinstance(gql_payloads, dict):
-                # print(f'[AD] {url_id} no GraphQL payloads')
-                return
-
-            posts_json = gql_payloads.get('posts')
-            if not isinstance(posts_json, dict):
-                # print(f'[AD] {url_id} no posts GraphQL')
-                return
-
-            items = (((posts_json.get('data') or {}).get('posts') or {}).get('items') or [])
-            if not items:
-                print(f'[AD] {url_id} item=null, skip DB')
-                return
-
-            post = items[0]
-            real_post_id = str(post.get('id') or ad.get('listPostId') or url_id).strip()
-
-            try:
-                phone = await fetch_seller_phone(tab)
-            except Exception as exc:
-                print(f'[CONTACT] Error {url_id}: {exc!r}')
-                phone = None
-
-            user_json = gql_payloads.get('user')
-            comments_json = gql_payloads.get('comments')
-
-            user_block: dict[str, Any] = {}
-            if isinstance(user_json, dict):
-                user_block = {'json': user_json, 'url': 'captured_from_browser'}
-
-            comments_block: dict[str, Any] = {}
-            if isinstance(comments_json, dict):
-                comments_block = {'json': comments_json, 'url': 'captured_from_browser'}
-
-            contact = {
-                'id': post.get('authorId'),
-                'username': post.get('authorUsername') or ad.get('author'),
-                'mobile': phone,
-                'email': None,
-            }
-
-            payload = {
-                'status': 'FOUND',
-                'postId': real_post_id,
-                'harajUrlId': url_id,
-                'url': url,
-                'sourceTagUrl': settings.target_tag_url,
-                'contact': contact,
-                'gql': {
-                    'posts': {'json': posts_json, 'url': 'captured_from_browser'},
-                    'user': user_block,
-                    'comments': comments_block,
-                },
-            }
-
-            result = await save_ad(payload)
-            comments_count = len((((comments_json or {}).get('data') or {}).get('comments') or {}).get('items') or [])
-            print(
-                f'[AD] Saved urlId={url_id} realId={real_post_id} '
-                f'inserted={result.get("inserted")} phone={phone} comments={comments_count}'
-            )
-
+            phone = await fetch_seller_phone(tab)
         except Exception as exc:
-            import traceback
-            print(f'[AD] Error {url_id}: {exc!r}')
-            traceback.print_exc()
-        finally:
-            try:
-                await tab.close()
-            except Exception:
-                pass
-            await asyncio.sleep(random.randint(settings.min_delay_ms, settings.max_delay_ms) / 1000)
+            print(f'[CONTACT] Error {url_id}: {exc!r}')
+            phone = None
+
+        user_json = gql_payloads.get('user')
+        comments_json = gql_payloads.get('comments')
+
+        user_block: dict[str, Any] = {}
+        if isinstance(user_json, dict):
+            user_block = {'json': user_json, 'url': 'captured_from_browser'}
+
+        comments_block: dict[str, Any] = {}
+        if isinstance(comments_json, dict):
+            comments_block = {'json': comments_json, 'url': 'captured_from_browser'}
+
+        contact = {
+            'id': post.get('authorId'),
+            'username': post.get('authorUsername') or ad.get('author'),
+            'mobile': phone,
+            'email': None,
+        }
+
+        payload = {
+            'status': 'FOUND',
+            'postId': real_post_id,
+            'harajUrlId': url_id,
+            'url': url,
+            'sourceTagUrl': settings.target_tag_url,
+            'contact': contact,
+            'gql': {
+                'posts': {'json': posts_json, 'url': 'captured_from_browser'},
+                'user': user_block,
+                'comments': comments_block,
+            },
+        }
+
+        result = await save_ad(payload)
+        comments_count = len((((comments_json or {}).get('data') or {}).get('comments') or {}).get('items') or [])
+        print(
+            f'[AD] Saved urlId={url_id} realId={real_post_id} '
+            f'inserted={result.get("inserted")} phone={phone} comments={comments_count}'
+        )
+
+    except Exception as exc:
+        import traceback
+        print(f'[AD] Error {url_id}: {exc!r}')
+        traceback.print_exc()
+    finally:
+        await close_tab(browser, tab)
+
 async def scrape_tag_page(browser) -> None:
     list_tab = await browser.get(settings.target_tag_url, new_tab=True)
     await list_tab.activate()
@@ -301,9 +307,6 @@ async def scrape_tag_page(browser) -> None:
             print("[LIST] No more ads loaded. Ending round.")
             break
 
-    try:
-        await list_tab.close()
-    except Exception:
-        pass
+    await close_tab(browser, list_tab)
 
     print(f"[LIST] Round finished. scrapedNew={scraped_count}")
